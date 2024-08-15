@@ -19,12 +19,11 @@
 
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
 
 ### Links
 
-- [Solution]()
-- [Live Site]()
+- [Solution](https://github.com/rtrend96/Advice-generator-app-main)
+- [Live Site](https://rtrend96.github.io/Advice-generator-app-main/)
 
 ### Built with
 
