@@ -4,9 +4,9 @@ const adviceId = document.querySelector(".adviceId");
 const advice = document.querySelector(".advice");
 const btn = document.querySelector(".btn");
 
-btn.addEventListener("click", handleGetAdvice);
+btn.addEventListener("click", generateAdvice);
 
-function handleGetAdvice() {
+function generateAdvice() {
   fetch("https://api.adviceslip.com/advice")
     .then((res) => {
       if (!res.ok) {
@@ -23,4 +23,4 @@ function handleGetAdvice() {
     });
 }
 
-handleGetAdvice();
+generateAdvice();
